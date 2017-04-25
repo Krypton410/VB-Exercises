@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B542A245-5B17-4FC7-9D80-C08FB5B66910}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CS302.My.MyApplication</StartupObject>
+    <RootNamespace>CS302</RootNamespace>
+    <AssemblyName>CS302</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CS302.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CS302.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Birthdays.Designer.vb">
+      <DependentUpon>Birthdays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Birthdays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Birthday1.vb" />
+    <Compile Include="Calculator1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator1.Designer.vb">
+      <DependentUpon>Calculator1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.vb" />
+    <Compile Include="Comparison.vb" />
+    <Compile Include="Comparison1.Designer.vb">
+      <DependentUpon>Comparison1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comparison1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitshift1.Designer.vb">
+      <DependentUpon>Bitshift1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bitshift1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment1.Designer.vb">
+      <DependentUpon>Assignment1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateDT.Designer.vb">
+      <DependentUpon>CreateDT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateDT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateDT1.vb" />
+    <Compile Include="Decisions.Designer.vb">
+      <DependentUpon>Decisions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Decisions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decision1.vb" />
+    <Compile Include="Cases.vb" />
+    <Compile Include="Case1.Designer.vb">
+      <DependentUpon>Case1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Case1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doloop.vb" />
+    <Compile Include="Doloop1.Designer.vb">
+      <DependentUpon>Doloop1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doloop1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitStatement.vb" />
+    <Compile Include="ExitStatement1.Designer.vb">
+      <DependentUpon>ExitStatement1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExitStatement1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinueStatement.vb" />
+    <Compile Include="ContinueStatement1.Designer.vb">
+      <DependentUpon>ContinueStatement1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContinueStatement1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComparingStrings.vb" />
+    <Compile Include="ComparingStrings1.Designer.vb">
+      <DependentUpon>ComparingStrings1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ComparingStrings1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormatD.Designer.vb">
+      <DependentUpon>FormatD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormatD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormatD1.vb" />
+    <Compile Include="GetCurrentDT.Designer.vb">
+      <DependentUpon>GetCurrentDT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GetCurrentDT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetCurrentDT1.vb" />
+    <Compile Include="JoinStrings.Designer.vb">
+      <DependentUpon>JoinStrings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JoinStrings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GettingSub1.Designer.vb">
+      <DependentUpon>GettingSub1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GettingSub1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GettingSub.vb" />
+    <Compile Include="JoinStrings1.vb" />
+    <Compile Include="StringThem.vb" />
+    <Compile Include="StringsThem1.Designer.vb">
+      <DependentUpon>StringsThem1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StringsThem1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoToStatement1.Designer.vb">
+      <DependentUpon>GoToStatement1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoToStatement1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoToStatement.vb" />
+    <Compile Include="NestedLoops1.vb" />
+    <Compile Include="NestedLoops.Designer.vb">
+      <DependentUpon>NestedLoops.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NestedLoops.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithEnd.Designer.vb">
+      <DependentUpon>WithEnd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WithEnd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithEnd1.vb" />
+    <Compile Include="Nextloop1.vb" />
+    <Compile Include="Nextloop.Designer.vb">
+      <DependentUpon>Nextloop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nextloop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NestedCase1.vb" />
+    <Compile Include="NestedCase.Designer.vb">
+      <DependentUpon>NestedCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NestedCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nested.vb" />
+    <Compile Include="Nested1.Designer.vb">
+      <DependentUpon>Nested1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nested1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ifelses.Designer.vb">
+      <DependentUpon>ifelses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ifelses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ifelse.vb" />
+    <Compile Include="Precedence1.Designer.vb">
+      <DependentUpon>Precedence1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Precedence1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logical1.Designer.vb">
+      <DependentUpon>Logical1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Logical1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logical.vb" />
+    <Compile Include="Bitshift.vb" />
+    <Compile Include="Assignment.vb" />
+    <Compile Include="Precedence.vb" />
+    <Compile Include="Operator.vb" />
+    <Compile Include="Operators.Designer.vb">
+      <DependentUpon>Operators.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Operators.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assignment1.resx">
+      <DependentUpon>Assignment1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Birthdays.resx">
+      <DependentUpon>Birthdays.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator1.resx">
+      <DependentUpon>Calculator1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Case1.resx">
+      <DependentUpon>Case1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparingStrings1.resx">
+      <DependentUpon>ComparingStrings1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comparison1.resx">
+      <DependentUpon>Comparison1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitshift1.resx">
+      <DependentUpon>Bitshift1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContinueStatement1.resx">
+      <DependentUpon>ContinueStatement1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateDT.resx">
+      <DependentUpon>CreateDT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Decisions.resx">
+      <DependentUpon>Decisions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doloop1.resx">
+      <DependentUpon>Doloop1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitStatement1.resx">
+      <DependentUpon>ExitStatement1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormatD.resx">
+      <DependentUpon>FormatD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetCurrentDT.resx">
+      <DependentUpon>GetCurrentDT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GettingSub1.resx">
+      <DependentUpon>GettingSub1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoToStatement1.resx">
+      <DependentUpon>GoToStatement1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinStrings.resx">
+      <DependentUpon>JoinStrings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NestedLoops.resx">
+      <DependentUpon>NestedLoops.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ifelses.resx">
+      <DependentUpon>ifelses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logical1.resx">
+      <DependentUpon>Logical1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nested1.resx">
+      <DependentUpon>Nested1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NestedCase.resx">
+      <DependentUpon>NestedCase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nextloop.resx">
+      <DependentUpon>Nextloop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operators.resx">
+      <DependentUpon>Operators.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Precedence1.resx">
+      <DependentUpon>Precedence1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringsThem1.resx">
+      <DependentUpon>StringsThem1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithEnd.resx">
+      <DependentUpon>WithEnd.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
